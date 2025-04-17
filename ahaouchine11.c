@@ -9,15 +9,14 @@
 
 #include <stdio.h>
 #include <math.h>
-#include <stdlib.h>  // For EXIT_SUCCESS
+#include <stdlib.h> 
 
-  // Function to calculate the hypotenuse
-   double calculateHypotenuse(double base, double height) {
+  // Function prototype 
+   double calculateHypotenuse(double base, double height);
 	
-      return sqrt((base * base) + (height * height));
-}
 
-int main(void) {
+int main(void)
+{
     double base, height, hypotenuse;
 
     // Prompt user for base and height
@@ -33,7 +32,17 @@ int main(void) {
     // Display the result
     printf("The hypotenuse of the triangle is: %.2f\n", hypotenuse);
 
+
+
     return EXIT_SUCCESS;
+}
+
+
+
+double calculateHypotenuse(double base, double height)
+{
+    return sqrt((base * base) + (height * height));
+
 }
 
 
