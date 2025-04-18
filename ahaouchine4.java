@@ -1,3 +1,16 @@
+
+// Aziz Haouchine
+// csc321
+// Lab number 4
+
+
+
+
+
+
+
+
+
 import java.util.Scanner;
 
 public class ahaouchine4 {
